@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://preeminent-caramel-e9942a.netlify.app"],
     credentials: true,
   })
 );app.use(express.json());
